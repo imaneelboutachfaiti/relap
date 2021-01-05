@@ -189,6 +189,7 @@ body {
   color: #333333;
   display: flex;
   column-gap: 100px;
+  margin-bottom: 96px;
 }
 
 .content-first-text {
@@ -206,6 +207,8 @@ body {
 
 .content-second-text {
   font-weight: 600;
+  display: block;
+  margin-bottom: 10px;
 }
 
 .second-content-paragraph {
@@ -227,12 +230,24 @@ body {
   border-radius: 3px 0px 0px 3px;
   width: 50%;
   transform: translateX(2.5%);
+  position: relative;
 }
 
-.second-section-image > img {
+.bitmap {
   transform: translate(32px, -32px);
 }
 
 .second-content {
   flex: 1;
+}
+
+.white-oval {
+  position: absolute;
+  top: 28%;
+  right: 78%;
+}
+
+.triangle {
+  position: absolute;
+  top: 45%;
 }
