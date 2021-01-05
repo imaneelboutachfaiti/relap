@@ -226,6 +226,7 @@ body {
   background: linear-gradient(235.13deg, #3023ae -62.75%, #c86dd7 106.66%);
   border-radius: 3px 0px 0px 3px;
   width: 50%;
+  transform: translateX(2.5%);
 }
 
 .second-section-image > img {
