@@ -129,7 +129,7 @@ body {
 
 .main-content {
   color: #ffffff;
-  width: 50%;
+  flex: 1;
   font-size: 16px;
   line-height: 24px;
   font-weight: 700;
@@ -177,5 +177,6 @@ body {
 
 .oval {
   position: absolute;
-  transform: translate(-50%, -50%);
+  bottom: 0;
+  left: -50px;
 }
