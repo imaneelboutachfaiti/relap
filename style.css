@@ -85,6 +85,10 @@ body {
   font-family: "Source Sans Pro", sans-serif;
 }
 
+.poppins-font {
+  font-family: "Poppins", sans-serif;
+}
+
 .container {
   max-width: 1170px;
   margin: 0 auto;
@@ -107,7 +111,6 @@ body {
   font-weight: 700;
   font-size: 40px;
   line-height: 48px;
-  font-family: "Poppins", sans-serif;
 }
 
 .nav-bar {
@@ -138,13 +141,11 @@ body {
 .main-title {
   font-size: 72px;
   line-height: 72px;
-  font-family: "Poppins", sans-serif;
   margin-bottom: 26px;
 }
 
 .main-paragraph {
   font-weight: 600;
-  font-family: "Source Sans Pro", sans-serif;
   margin-bottom: 35px;
 }
 
@@ -238,13 +239,13 @@ body {
 }
 
 .second-content {
-  flex: 1;
+  width: 50%;
 }
 
 .white-oval {
   position: absolute;
   top: 28%;
-  right: 78%;
+  right: 76%;
 }
 
 .triangle {
