@@ -155,12 +155,25 @@ body {
   column-gap: 100px;
 }
 
-.explore-btn {
-  background-color: #ffc300;
+.btn {
   padding: 12px 58px;
   border: none;
   border-radius: 24px;
   color: #ffffff;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.explore-btn {
+  background-color: #ffc300;
+}
+
+.all-works-btn {
+  background-color: #c86dd7;
+}
+
+.all-works {
+  text-align: center;
 }
 
 .laptop {
@@ -259,6 +272,10 @@ body {
 
 .content-1 {
   display: flex;
+}
+
+.third-section-space {
+  margin-bottom: 48px;
 }
 
 .content-1-paragraph {
