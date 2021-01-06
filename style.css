@@ -114,9 +114,6 @@ body {
 }
 
 .nav-bar {
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 24px;
   cursor: pointer;
   display: flex;
   column-gap: 30px;
@@ -134,8 +131,6 @@ body {
 .main-content {
   color: #ffffff;
   flex: 1;
-  font-size: 16px;
-  line-height: 24px;
   font-weight: 700;
 }
 
@@ -145,8 +140,13 @@ body {
   margin-bottom: 26px;
 }
 
-.main-paragraph {
+.main-text-style {
   font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.main-paragraph {
   margin-bottom: 35px;
 }
 
@@ -214,10 +214,13 @@ body {
   display: block;
 }
 
-.content-title {
+.content-title-style {
   line-height: 64px;
   font-size: 56px;
   font-weight: 700;
+}
+
+.section-content-title {
   margin-bottom: 55px;
 }
 
@@ -287,15 +290,7 @@ body {
 
 .gray-text {
   font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
   opacity: 0.5;
-}
-
-.item-1 {
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 24px;
 }
 
 .items {
@@ -333,4 +328,16 @@ body {
 
 .image2 {
   position: relative;
+}
+
+.fugiat-quo {
+  margin-top: 82px;
+}
+
+.fugiat-quo-content {
+  text-align: center;
+}
+
+.fugiat-quo-title {
+  margin-bottom: 23px;
 }
