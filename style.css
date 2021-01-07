@@ -97,6 +97,7 @@ body {
 .purple-section {
   background: linear-gradient(224.72deg, #3023ae -1%, #c86dd7 100.5%);
   padding-top: 30px;
+  position: relative;
 }
 
 .header {
@@ -449,6 +450,12 @@ body {
   position: absolute;
   bottom: 0;
   left: 0;
+}
+
+.oval2 {
+  position: absolute;
+  top: 7%;
+  right: 0;
 }
 
 .shape3 {
