@@ -462,6 +462,7 @@ body {
 .comments {
 display: flex;
 margin-bottom: 95px;
+column-gap: 30px;
 }
 
 .comment {
