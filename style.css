@@ -452,6 +452,7 @@ body {
 
 .officis-debitis {
   margin-top: 71px;
+  margin-bottom: 94px;
 }
 
 .officis-debitis-content {
@@ -460,9 +461,9 @@ body {
   margin: auto;
 }
 .comments {
-display: flex;
-margin-bottom: 95px;
-column-gap: 30px;
+  display: flex;
+  margin-bottom: 95px;
+  column-gap: 30px;
 }
 
 .comment {
@@ -478,4 +479,42 @@ column-gap: 30px;
 .comment-text {
   margin-top: 14px;
   margin-bottom: 16px;
+}
+
+.officis-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pink-section {
+  background-color: #fdf2ff;
+}
+
+.pink-content {
+  display: flex;
+  align-items: center;
+  padding-top: 144px;
+  column-gap: 100px;
+  padding-bottom: 80px;
+  align-items: center;
+}
+
+.pink-section-image {
+  background: linear-gradient(224.72deg, #3023ae -1%, #c86dd7 100.5%);
+}
+
+.pink-section-content {
+  flex: 1;
+}
+.pink-content-paragraph {
+  margin-top: 23px;
+  margin-bottom: 32px;
+}
+
+.our-blog-btn {
+  background-color: #c86dd7;
+}
+
+.pink-section-title {
+  margin-top: 20px;
 }
