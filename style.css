@@ -170,7 +170,6 @@ body {
   background-color: #ffc300;
 }
 
-
 .all-works {
   text-align: center;
 }
@@ -501,6 +500,8 @@ body {
 
 .pink-section-image {
   background: linear-gradient(224.72deg, #3023ae -1%, #c86dd7 100.5%);
+  border-radius: 3px;
+  position: relative;
 }
 
 .pink-section-content {
@@ -549,9 +550,42 @@ body {
 .contact-us {
   column-gap: 30px;
   display: flex;
+  padding-bottom: 160px;
 }
 
 .email-input::placeholder {
- opacity: 0.5;
- padding-left: 16px;
+  opacity: 0.5;
+  padding-left: 16px;
 }
+
+.pink-image-text {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+}
+
+.pink-image-paragraph {
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.pink-image-content {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  position: absolute;
+  bottom: 12%;
+  width: 74%;
+  right: 11%;
+}
+
+.adaora-image {
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+  margin-top: 18px;
+}
+/* .border-footer {
+  border-bottom: 1px solid #000000;
+  opacity: 0.1;
+} */
