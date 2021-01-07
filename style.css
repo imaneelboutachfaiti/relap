@@ -439,3 +439,42 @@ body {
   top: 48%;
   left: -11%;
 }
+
+.officis-debitis-paragraph {
+  margin-bottom: 64px;
+  text-align: center;
+  flex: 1;
+}
+
+.officis-debitis-title {
+  margin-bottom: 23px;
+}
+
+.officis-debitis {
+  margin-top: 71px;
+}
+
+.officis-debitis-content {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+.comments {
+display: flex;
+margin-bottom: 95px;
+}
+
+.comment {
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+}
+
+.comment:hover {
+  box-shadow: 16px 16px 48px rgba(0, 0, 0, 0.0994678);
+}
+
+.comment-text {
+  margin-top: 14px;
+  margin-bottom: 16px;
+}
