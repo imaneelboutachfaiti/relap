@@ -389,6 +389,7 @@ body {
 .bleu-section {
   background-color: #3023ae;
   padding-bottom: 222px;
+  position: relative;
 }
 
 .bleu-content-title {
@@ -436,6 +437,24 @@ body {
 .bleu-image5 {
   top: 48%;
   left: -11%;
+}
+
+.shape1 {
+  position: absolute;
+  top: 0;
+  right: 44%;
+}
+
+.shape2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.shape3 {
+  position: absolute;
+  bottom: 0;
+  right: 50%;
 }
 
 .officis-debitis-paragraph {
