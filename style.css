@@ -367,6 +367,7 @@ body {
   align-items: center;
   width: 370px;
   padding: 40px 24px 40px 24px;
+  border-radius: 3px;
 }
 
 .icon {
@@ -376,4 +377,65 @@ body {
 
 .icon-content:hover {
   box-shadow: 16px 16px 48px rgba(0, 0, 0, 0.0994678);
+}
+
+.bleu-section-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  padding: 173px 0 0 80px;
+  column-gap: 200px;
+}
+
+.bleu-section {
+  background-color: #3023ae;
+  padding-bottom: 222px;
+}
+
+.bleu-content-title {
+  margin-top: 18px;
+  margin-bottom: 23px;
+}
+
+.our-team-btn {
+  background-color: #ffc300;
+  margin-top: 35px;
+}
+
+.bleu-content {
+  flex: 1;
+}
+
+.bleu-images {
+  position: relative;
+}
+
+.bleu-image1 {
+  right: 42%;
+  top: -42px;
+}
+
+.image-position {
+  position: absolute;
+}
+
+.bleu-image2 {
+  top: 0;
+  left: 64%;
+}
+
+.bleu-image3 {
+  right: -13%;
+  top: 49%;
+}
+
+.bleu-image4 {
+  right: 7%;
+  top: 68%;
+}
+
+.bleu-image5 {
+  top: 48%;
+  left: -11%;
 }
