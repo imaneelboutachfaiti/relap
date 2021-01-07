@@ -170,9 +170,6 @@ body {
   background-color: #ffc300;
 }
 
-.all-works-btn {
-  background-color: #c86dd7;
-}
 
 .all-works {
   text-align: center;
@@ -337,6 +334,8 @@ body {
 
 .fugiat-quo-content {
   text-align: center;
+  width: 50%;
+  margin: auto;
 }
 
 .fugiat-quo-title {
@@ -457,9 +456,10 @@ body {
 
 .officis-debitis-content {
   text-align: center;
-  width: 60%;
+  width: 50%;
   margin: auto;
 }
+
 .comments {
   display: flex;
   margin-bottom: 95px;
@@ -511,10 +511,47 @@ body {
   margin-bottom: 32px;
 }
 
-.our-blog-btn {
+.purple-btn {
   background-color: #c86dd7;
 }
 
 .pink-section-title {
   margin-top: 20px;
+}
+
+.footer {
+  background-image: url("images/footer-image.png");
+  padding-top: 135px;
+}
+
+.footer-content {
+  width: 43%;
+  margin: auto;
+}
+
+.footer-paragraph {
+  margin-top: 23px;
+  padding-bottom: 32px;
+  text-align: center;
+}
+
+.footer-title {
+  text-align: center;
+}
+
+.email-input {
+  border-radius: 3px;
+  border: 1px solid #dadada;
+  width: 370px;
+  height: 48px;
+}
+
+.contact-us {
+  column-gap: 30px;
+  display: flex;
+}
+
+.email-input::placeholder {
+ opacity: 0.5;
+ padding-left: 16px;
 }
