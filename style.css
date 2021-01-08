@@ -219,6 +219,7 @@ body {
 
 .section-content-title {
   margin-bottom: 55px;
+  flex: 1;
 }
 
 .content-second-text {
@@ -231,6 +232,12 @@ body {
   opacity: 0.5;
   font-weight: 400;
   margin-bottom: 46px;
+}
+
+.expanded-text {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
 }
 
 .collapsed-text {
@@ -246,6 +253,7 @@ body {
   border-radius: 3px 0px 0px 3px;
   transform: translateX(2.5%);
   position: relative;
+  flex: 1;
 }
 
 .bitmap {
@@ -253,7 +261,7 @@ body {
 }
 
 .second-content {
-  width: 50%;
+flex: 1;
 }
 
 .white-oval {
@@ -282,7 +290,7 @@ body {
 }
 
 .content-1-paragraph {
-  width: 50%;
+  flex: 1;
 }
 
 .gray-text {
@@ -334,8 +342,6 @@ body {
 
 .fugiat-quo-content {
   text-align: center;
-  width: 50%;
-  margin: auto;
 }
 
 .fugiat-quo-title {
@@ -481,8 +487,6 @@ body {
 
 .officis-debitis-content {
   text-align: center;
-  width: 50%;
-  margin: auto;
 }
 
 .comments {
@@ -554,9 +558,7 @@ body {
 }
 
 .footer-content {
-  width: 43%;
   align-items: center;
-  margin: auto;
   display: flex;
   flex-direction: column;
 }
