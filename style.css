@@ -94,9 +94,10 @@ body {
   margin: 0 auto;
 }
 
-.purple-section {
+.purple-section-color {
   background: linear-gradient(224.72deg, #3023ae -1%, #c86dd7 100.5%);
-  padding-top: 30px;
+}
+.purple-section {
   position: relative;
 }
 
@@ -155,6 +156,7 @@ body {
   display: flex;
   align-items: center;
   column-gap: 100px;
+  flex-wrap: wrap;
 }
 
 .btn {
@@ -203,6 +205,8 @@ body {
   display: flex;
   column-gap: 100px;
   margin-bottom: 96px;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .content-first-text {
@@ -261,7 +265,7 @@ body {
 }
 
 .second-content {
-flex: 1;
+  flex: 1;
 }
 
 .white-oval {
@@ -272,7 +276,7 @@ flex: 1;
 
 .triangle {
   position: absolute;
-  top: 45%;
+  top: 46%;
 }
 
 .third-section {
@@ -307,6 +311,7 @@ flex: 1;
 .content-images {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .image-text1 {
@@ -390,7 +395,8 @@ flex: 1;
   align-items: center;
   color: #ffffff;
   padding: 173px 0 0 80px;
-  column-gap: 200px;
+  gap: 200px;
+  flex-wrap: wrap;
 }
 
 .bleu-section {
@@ -460,7 +466,7 @@ flex: 1;
 
 .oval2 {
   position: absolute;
-  top: 7%;
+  top: -12%;
   right: 0;
 }
 
@@ -499,6 +505,7 @@ flex: 1;
   display: flex;
   flex-direction: column;
   padding: 32px;
+  flex: 1;
 }
 
 .comment:hover {
@@ -513,6 +520,7 @@ flex: 1;
 .officis-icons {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .pink-section {
@@ -525,7 +533,8 @@ flex: 1;
   padding-top: 144px;
   column-gap: 100px;
   padding-bottom: 80px;
-  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 67px;
 }
 
 .pink-section-image {
@@ -584,6 +593,7 @@ flex: 1;
   column-gap: 30px;
   display: flex;
   padding-bottom: 160px;
+  flex-wrap: wrap;
 }
 
 .email-input::placeholder {
@@ -656,4 +666,133 @@ flex: 1;
 .list-title {
   margin-bottom: 10px;
   display: block;
+}
+
+.header-space {
+  padding-top: 30px;
+}
+
+.disabled-menu {
+  display: none;
+}
+
+@media only screen and (max-device-width: 375px) {
+  .container {
+    padding-left: 14px;
+  }
+
+  .contact-us-btn,
+  .nav-bar,
+  .image2-content {
+    display: none;
+  }
+
+  .header-space {
+    background-color: #ffffff;
+    padding: 0;
+  }
+  .purple-section {
+    padding-top: 0;
+  }
+
+  .website-logo {
+    display: block;
+    color: #333333;
+    padding: 16px 0px 16px 14px;
+  }
+
+  .disabled-menu,
+  .content-1 {
+    display: block;
+  }
+
+  .main-title {
+    font-size: 56px;
+    line-height: 64px;
+  }
+
+  .social-media-icons {
+    right: 34%;
+    bottom: 36px;
+  }
+
+  .illustration-img {
+    width: 339px;
+    height: 392px;
+  }
+  .explore-btn {
+    margin-bottom: 16px;
+  }
+
+  .oval2 {
+    top: 37%;
+  }
+
+  .bitmap {
+    max-width: 339px;
+    transform: translate(16px, -16px);
+  }
+
+  .white-oval {
+    width: 40%;
+    height: 40%;
+    top: 25%;
+    right: 32%;
+  }
+
+  .triangle {
+    top: 38%;
+    right: 51%;
+    width: 6%;
+  }
+
+  .second-section-image {
+    margin-top: 74px;
+    flex: 0%;
+  }
+
+  .section-content-title,
+  .officis-debitis-title,
+  .pink-section-title,
+  .footer-title,
+  .fugiat-quo-title {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .content-1 {
+    flex-wrap: wrap;
+  }
+
+  .exercitation {
+    content: url("./images/image2-mobile.png");
+  }
+
+  .content-images {
+    row-gap: 17px;
+  }
+
+  .items {
+    flex-wrap: wrap;
+    margin-top: 46px;
+    row-gap: 24px;
+  }
+
+  .officis-icons {
+    justify-content: space-around;
+    gap: 30px;
+  }
+  .second-content {
+    flex: 0;
+  }
+
+  .comments {
+    flex-direction: column;
+  }
+
+  .email-input {
+    width: 346px;
+    margin: 0 15px 16px 15px;
+  }
+ 
 }
