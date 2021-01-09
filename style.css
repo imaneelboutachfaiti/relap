@@ -683,6 +683,7 @@ body {
 @media only screen and (max-device-width: 375px) {
   .container {
     padding-left: 14px;
+    padding-right: 14px;
   }
 
   .contact-us-btn,
