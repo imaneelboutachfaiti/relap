@@ -395,7 +395,7 @@ body {
   align-items: center;
   color: #ffffff;
   padding: 173px 0 0 80px;
-  gap: 200px;
+  column-gap: 200px;
   flex-wrap: wrap;
 }
 
@@ -632,6 +632,8 @@ body {
 .footer-lists {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 40px;
 }
 
 .border-footer {
@@ -655,6 +657,8 @@ body {
   align-items: flex-end;
   justify-content: space-between;
   margin-top: 60px;
+  flex-wrap: wrap;
+  row-gap: 58px;
 }
 
 .list-items {
@@ -683,7 +687,10 @@ body {
 
   .contact-us-btn,
   .nav-bar,
-  .image2-content {
+  .image2-content,
+  .shape2,
+  .shape3,
+  .shape1 {
     display: none;
   }
 
@@ -755,7 +762,8 @@ body {
   .officis-debitis-title,
   .pink-section-title,
   .footer-title,
-  .fugiat-quo-title {
+  .fugiat-quo-title,
+  .bleu-content-title {
     font-size: 40px;
     line-height: 48px;
   }
@@ -794,5 +802,48 @@ body {
     width: 346px;
     margin: 0 15px 16px 15px;
   }
- 
+
+  .shape1 {
+    position: absolute;
+    top: -3%;
+    right: -12%;
+  }
+
+  .bleu-bitmap {
+    width: 292px;
+    height: 302px;
+  }
+
+  .bleu-image1 {
+    width: 157px;
+    height: 154px;
+  }
+
+  .bleu-image2 {
+    width: 113px;
+    height: 113px;
+  }
+
+  .bleu-image3 {
+    width: 90px;
+    height: 88px;
+  }
+
+  .bleu-image4 {
+    width: 118px;
+    height: 109px;
+  }
+  .bleu-image5 {
+    width: 133px;
+    height: 138px;
+  }
+
+  .bleu-section-content {
+    padding-top: 100px;
+    row-gap: 43px;
+  }
+
+  .bleu-section {
+    padding-bottom: 80px;
+  }
 }
