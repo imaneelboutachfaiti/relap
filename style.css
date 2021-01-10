@@ -353,6 +353,11 @@ body {
   text-align: center;
 }
 
+.text-content {
+  width: 60%;
+  margin: 0 auto;
+}
+
 .fugiat-quo-title {
   margin-bottom: 23px;
 }
@@ -510,9 +515,6 @@ body {
   flex-direction: column;
   padding: 32px;
   flex: 1;
-}
-
-.comment:hover {
   box-shadow: 16px 16px 48px rgba(0, 0, 0, 0.0994678);
 }
 
@@ -525,6 +527,7 @@ body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .pink-section {
@@ -564,10 +567,14 @@ body {
   margin-top: 20px;
 }
 
-.footer {
+.bottom-image {
   background-image: url("images/footer-image.png");
   padding-top: 135px;
   padding-bottom: 74px;
+}
+
+.footer-icons-content {
+  align-self: flex-end;
 }
 
 .footer-content {
@@ -639,21 +646,17 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
   row-gap: 40px;
+  flex: 3;
 }
 
 .border-footer {
-  border-bottom: 1px solid rgb(0,0,0,0.1);
+  border-bottom: 1px solid rgb(0, 0, 0, 0.1);
 }
 
 .footer-icons {
   display: flex;
   column-gap: 8px;
   margin-bottom: 15px;
-}
-
-.footer-list {
-  padding-right: 108px;
-  margin-right: 108px;
 }
 
 .footer-lists-content {
@@ -850,5 +853,11 @@ body {
 
   .bleu-section {
     padding-bottom: 80px;
+  }
+}
+
+@media screen and (max-width: 1170px) {
+  body {
+    padding-left: 0px 20px;
   }
 }
