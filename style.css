@@ -89,6 +89,9 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
 .container {
   max-width: 1170px;
   margin: 0 auto;
@@ -159,17 +162,18 @@ body {
   flex-wrap: wrap;
 }
 
-.btn {
-  padding: 12px 58px;
+.button {
+  padding: 12px;
   border: none;
   border-radius: 24px;
   color: #ffffff;
   font-weight: 700;
   line-height: 24px;
   cursor: pointer;
+  min-width: 150px;
 }
 
-.explore-btn {
+.yellow-btn {
   background-color: #ffc300;
 }
 
@@ -419,9 +423,8 @@ body {
   margin-bottom: 23px;
 }
 
-.our-team-btn {
-  background-color: #ffc300;
-  margin-top: 35px;
+.bleu-content-paragraph {
+  margin-bottom: 35px;
 }
 
 .bleu-content {
