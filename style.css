@@ -544,7 +544,7 @@ body {
   column-gap: 100px;
   padding-bottom: 80px;
   flex-wrap: wrap;
-  row-gap: 67px;
+  grid-gap: 67px;
 }
 
 .pink-section-image {
@@ -648,7 +648,7 @@ body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  row-gap: 40px;
+  grid-gap: 40px;
   flex: 3;
 }
 
@@ -672,7 +672,7 @@ body {
 }
 
 .list-items {
-  row-gap: 10px;
+  grid-gap: 10px;
   display: flex;
   flex-direction: column;
 }
@@ -788,13 +788,13 @@ body {
   }
 
   .content-images {
-    row-gap: 17px;
+    grid-gap: 17px;
   }
 
   .items {
     flex-wrap: wrap;
     margin-top: 46px;
-    row-gap: 24px;
+    grid-gap: 24px;
   }
 
   .officis-icons {
@@ -851,7 +851,7 @@ body {
 
   .bleu-section-content {
     padding-top: 100px;
-    row-gap: 43px;
+    grid-gap: 43px;
   }
 
   .bleu-section {
