@@ -206,8 +206,8 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: #333333;
-  display: flex;
   column-gap: 100px;
+  display: flex;
   margin-bottom: 96px;
   flex-wrap: wrap;
   align-items: center;
@@ -544,7 +544,6 @@ body {
   column-gap: 100px;
   padding-bottom: 80px;
   flex-wrap: wrap;
-  grid-gap: 67px;
 }
 
 .pink-section-image {
@@ -664,13 +663,15 @@ body {
 
 .footer-lists-content {
   display: flex;
-  align-items: flex-end;
   justify-content: space-between;
   margin-top: 60px;
   flex-wrap: wrap;
   row-gap: 58px;
 }
 
+.footer-icons-content {
+  align-self: flex-start;
+}
 .list-items {
   grid-gap: 10px;
   display: flex;
@@ -691,7 +692,8 @@ body {
 }
 
 @media only screen and (max-device-width: 600px) {
-  .container {
+  .container,
+  .second-content {
     padding-left: 14px;
     padding-right: 14px;
   }
@@ -747,21 +749,29 @@ body {
   }
 
   .bitmap {
-    max-width: 339px;
     transform: translate(16px, -16px);
   }
 
+  .second-section {
+    display: initial;
+    flex-wrap: unset;
+  }
+
+  .section-icons {
+    flex-wrap: unset;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .white-oval {
-    width: 40%;
-    height: 40%;
-    top: 25%;
+    width: 30%;
     right: 32%;
   }
 
   .triangle {
-    top: 38%;
-    right: 51%;
-    width: 6%;
+    top: 40%;
+    right: 44%;
+    width: 5%;
   }
 
   .second-section-image {
@@ -791,6 +801,10 @@ body {
     grid-gap: 17px;
   }
 
+  .pink-section-image {
+    margin-top: 67px;
+  }
+
   .items {
     flex-wrap: wrap;
     margin-top: 46px;
@@ -798,8 +812,10 @@ body {
   }
 
   .officis-icons {
-    justify-content: space-around;
-    gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 50px;
+    place-items: center;
   }
   .second-content {
     flex: 0;
@@ -807,6 +823,8 @@ body {
 
   .comments {
     flex-direction: column;
+    display: grid;
+    grid-gap: 16px;
   }
 
   .email-input {
@@ -852,6 +870,12 @@ body {
   .bleu-section-content {
     padding-top: 100px;
     grid-gap: 43px;
+  }
+
+  .footer-lists-content,
+  .footer-lists,
+  .footer-icons-content {
+    flex-direction: column;
   }
 
   .bleu-section {
