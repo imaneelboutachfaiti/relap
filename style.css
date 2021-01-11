@@ -819,6 +819,9 @@ body {
     margin-top: 67px;
   }
 
+  .pink-section {
+    padding-top: 45px;
+  }
   .items {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
