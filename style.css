@@ -760,6 +760,10 @@ body {
     flex-wrap: unset;
   }
 
+  .bleu-images {
+    margin-top: 100px;
+  }
+
   .section-icons {
     flex-wrap: unset;
     flex-direction: column;
@@ -792,6 +796,10 @@ body {
     line-height: 48px;
   }
 
+  .bottom-image {
+    padding-top: 70px;
+  }
+
   .content-1 {
     flex-wrap: wrap;
   }
@@ -818,6 +826,11 @@ body {
     grid-gap: 24px;
   }
 
+  .contact-us {
+    padding-bottom: 64px;
+    align-items: end;
+  }
+
   .officis-icons {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -829,7 +842,6 @@ body {
   }
 
   .comments {
-    /* flex-direction: column; */
     display: grid;
     grid-gap: 16px;
   }
@@ -883,8 +895,7 @@ body {
   }
 
   .footer-lists-content,
-  .footer-lists,
-  .footer-icons-content {
+  .footer-lists {
     display: grid;
     grid-gap: 40px;
   }
@@ -899,7 +910,7 @@ body {
 }
 
 @media screen and (max-width: 1170px) {
-  body {
-    padding-left: 0px 20px;
+  .container {
+    padding: 0 20px;
   }
 }
