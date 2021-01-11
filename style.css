@@ -648,7 +648,6 @@ body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  grid-gap: 40px;
   flex: 3;
 }
 
@@ -830,7 +829,7 @@ body {
   }
 
   .comments {
-    flex-direction: column;
+    /* flex-direction: column; */
     display: grid;
     grid-gap: 16px;
   }
@@ -886,7 +885,12 @@ body {
   .footer-lists-content,
   .footer-lists,
   .footer-icons-content {
-    flex-direction: column;
+    display: grid;
+    grid-gap: 40px;
+  }
+
+  .text-content {
+    width: 100%;
   }
 
   .bleu-section {
