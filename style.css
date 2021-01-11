@@ -669,9 +669,6 @@ body {
   row-gap: 58px;
 }
 
-.footer-icons-content {
-  align-self: flex-start;
-}
 .list-items {
   grid-gap: 10px;
   display: flex;
