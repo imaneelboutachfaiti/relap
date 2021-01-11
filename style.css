@@ -433,6 +433,7 @@ body {
 
 .bleu-images {
   position: relative;
+  justify-self: center;
 }
 
 .bleu-image1 {
@@ -456,12 +457,12 @@ body {
 
 .bleu-image4 {
   right: 7%;
-  top: 68%;
+  top: 75%;
 }
 
 .bleu-image5 {
-  top: 48%;
-  left: -11%;
+  top: 54%;
+  left: -8%;
 }
 
 .shape1 {
@@ -693,7 +694,10 @@ body {
 
 @media only screen and (max-device-width: 600px) {
   .container,
-  .second-content {
+  .second-content,
+  .content-1,
+  .content-first-text,
+  .items {
     padding-left: 14px;
     padding-right: 14px;
   }
@@ -705,6 +709,10 @@ body {
   .shape3,
   .shape1 {
     display: none;
+  }
+
+  .bleu-content {
+    margin-top: 35px;
   }
 
   .header-space {
@@ -799,6 +807,9 @@ body {
 
   .content-images {
     grid-gap: 17px;
+    display: grid;
+    place-content: center;
+    place-items: center;
   }
 
   .pink-section-image {
@@ -806,7 +817,8 @@ body {
   }
 
   .items {
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     margin-top: 46px;
     grid-gap: 24px;
   }
@@ -838,21 +850,18 @@ body {
     right: -12%;
   }
 
-  .bleu-bitmap {
-    width: 292px;
-    height: 302px;
-  }
-
-  .bleu-image1 {
-    width: 157px;
-    height: 154px;
+ .bleu-image1 {
+    width: 136px;
+    height: 139px;
+    left: 0;
+    top: 0;
   }
 
   .bleu-image2 {
     width: 113px;
     height: 113px;
-  }
-
+  } 
+  
   .bleu-image3 {
     width: 90px;
     height: 88px;
@@ -870,6 +879,7 @@ body {
   .bleu-section-content {
     padding-top: 100px;
     grid-gap: 43px;
+    display: grid;
   }
 
   .footer-lists-content,
