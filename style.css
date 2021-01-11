@@ -744,10 +744,6 @@ body {
     bottom: 36px;
   }
 
-  .illustration-img {
-    width: 339px;
-    height: 392px;
-  }
   .explore-btn {
     margin-bottom: 16px;
   }
@@ -850,7 +846,7 @@ body {
     right: -12%;
   }
 
- .bleu-image1 {
+  .bleu-image1 {
     width: 136px;
     height: 139px;
     left: 0;
@@ -860,11 +856,16 @@ body {
   .bleu-image2 {
     width: 113px;
     height: 113px;
-  } 
-  
+  }
+
   .bleu-image3 {
     width: 90px;
     height: 88px;
+  }
+
+  .laptop {
+    padding-left: 33px;
+    margin-top: 16px;
   }
 
   .bleu-image4 {
